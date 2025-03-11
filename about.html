@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+    <style>
+    #about-content {
+        display: none;
+        background-color: #4a5565;
+        color: white;
+        padding: 10px;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        z-index: 5;
+    }
+    #about:hover + #about-content {
+        display: block;
+    }
+    </style>
+</head>
+<body class="m-0">
+    <nav id="navbar" class="flex justify-between items-center fixed top-0 w-full h-25 pb-1.5 z-10 bg-white transition-colors duration-1000 ease-in-out">
+        <div class="flex ml-10 self-center mt-5 xl:ml-25 md:mt-5" id="logo">
+            <img src="logo.png" alt="" class="h-22">
+        </div>
+        <div>
+            <img class="w-[80px] mt-9 pr-5 md:hidden" src="https://i.ibb.co/gb7GyZhb/Screenshot-2025-02-09-160007-removebg-preview.png" id="threebar" alt="Menu"/>
+        </div>
+        <div class="hidden flex flex-col transition-all top-0 w-full ml-12 mr-12 items-left bg-orange-300 font-bold rounded-b-3xl duration-800 ease-out shadow-lg" id="links">
+            <img class="mt-70 ml-20 w-10 float-right mb-5 cursor-pointer" src="https://i.ibb.co/7tDzNZGt/cross.png" id="back" alt="Close"/>
+            <a href="index.html" class="text-2xl text-zinc-700 pt-5 pl-20 pr-15 ">Home</a>
+            <a href="#" class="text-2xl text-zinc-700 pt-5 pl-20 pr-15">Industry</a>
+            <a href="#" class="text-2xl text-zinc-700 pt-5 pl-20 pr-15">Services</a>
+            <a href="#" class="text-2xl text-zinc-700 pt-5 pl-20 pr-15 pb-10">Contact Us</a>
+        </div>
+        <div class="hidden mt-1 md:flex text-3xl">
+            <a href="index.html" class="decoration-0 text-black content-center mr-5 p-3 hover:p-6 hover:text-orange-400 hover:bg-gray-600 md:mt-4">Home</a>
+            <a href="#" class="decoration-0 text-black content-center mr-5 p-3 hover:p-6 hover:text-orange-400 hover:bg-gray-600 md:mt-4" id="about">Industry</a>
+            <div id="about-content" class="hidden">
+                <p class="text-orange-400 mt-7 ml-20">Industry</p>
+                <div class="flex">
+                    <div class="w-230">
+                        <p class="font-bold text-3xl ml-20 mt-5">SS Enterprises: Pioneering Telemarketing Solutions Across Industries</p>
+                        <p class="font-light mx-10 ml-20 text-xl mt-5">
+                            At SS Enterprises, we believe that the foundation of lasting success is built on robust partnerships. As a prominent telemarketing 
+                            service provider in India, we endeavor to go beyond the conventional boundaries of service delivery, positioning ourselves as your 
+                            dedicated partner in navigating the pathways to mutual growth and prosperity.
+                        </p>
+                    </div>
+                    <div>
+                        <ul class="text-xl list-disc ml-30 mt-10">
+                            <li>INDUSTRY</li>
+                            <li>E-COMMERCE</li>
+                            <li>INSURANCE</li>
+                            <li>IT / ITES</li>
+                            <li>TELECOMMUNICATIONS</li>
+                            <li>TRAVEL AND HOSPITALITY</li>
+                        </ul>
+                        <p class="text-xl ml-50 mt-20">
+                            <a href="#">Click me! </a><label class="text-orange-400">to know more.</label>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="decoration-0 text-black content-center p-3 hover:p-6 hover:text-orange-400 hover:bg-gray-600 md:mt-4" id="about">Services</a>
+            <div id="about-content" class="hidden">
+                <p class="text-orange-400 mt-7 ml-20">Industry</p>
+                <div class="flex">
+                    <div class="w-230">
+                        <p class="font-bold text-3xl ml-20 mt-5">SS Enterprises: Pioneering Telemarketing Solutions Across Industries</p>
+                        <p class="font-light mx-10 ml-20 text-xl mt-5">
+                            At SS Enterprises, we believe that the foundation of lasting success is built on robust partnerships. As a prominent telemarketing 
+                            service provider in India, we endeavor to go beyond the conventional boundaries of service delivery, positioning ourselves as your 
+                            dedicated partner in navigating the pathways to mutual growth and prosperity.
+                        </p>
+                    </div>
+                    <div>
+                        <ul class="text-xl list-disc ml-30 mt-10">
+                            <li>INDUSTRY</li>
+                            <li>E-COMMERCE</li>
+                            <li>INSURANCE</li>
+                            <li>IT / ITES</li>
+                            <li>TELECOMMUNICATIONS</li>
+                            <li>TRAVEL AND HOSPITALITY</li>
+                        </ul>
+                        <p class="text-xl ml-50 mt-20">
+                            <a href="#">Click me! </a><label class="text-orange-400">to know more.</label>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <a href="#"><img class="w-42 xl:mr-15  hover:p-1.5 hover:text-orange-400" src="contactus.png" alt="Logo"/></a>
+        </div> 
+    </nav>
+    <br><br><br><br>
+    <!-- Write your code here -->
+    <div class="grid grid-cols-1 md:grid-cols-1">
+        <div>
+        <img class="w-full" src="Us.png" alt="Close"/>
+        </div>
+        <div class="absolute z-10 left-0 h-41 md:h-80 w-10 md:w-15 bg-zinc-700 rounded-r-xl fixed top-80 md:top-30 md:top-60">
+            <img class="h-7 md:h-11 justify-self-center mt-1 md:mt-4 transition duration-300 ease-in-out hover:scale-105 hover:translate-x-2 hover:shadow-lg" src="call.png" alt="Phone"/>
+            <img class="h-7 md:h-11 justify-self-center mt-1 md:mt-4 transition duration-300 ease-in-out hover:scale-105 hover:translate-x-2 hover:shadow-lg" src="mail.png" alt="Email"/>
+            <img class="h-7 md:h-11 justify-self-center mt-1 md:mt-4 transition duration-300 ease-in-out hover:scale-105 hover:translate-x-2 hover:shadow-lg" src="linkedin.png" alt="LinkedIn"/>
+            <img class="h-7 md:h-11 justify-self-center mt-1 md:mt-4 transition duration-300 ease-in-out hover:scale-105 hover:translate-x-2 hover:shadow-lg" src="whatsapp.png" alt="WhatsApp"/>
+            <img class="h-7 md:h-11 justify-self-center mt-1 md:mt-4 transition duration-300 ease-in-out hover:scale-105 hover:translate-x-2 hover:shadow-lg" src="insta.png" alt="Instagram"/>
+        </div>
+        <div class="absolute right-0 z-10 h-40 md:h-80 w-10 md:w-15 bg-gray-900 rounded-l-2xl fixed top-80 md:top-60">
+            <p class="rotate-90 text-orange-400 font-bold mt-14 md:text-3xl md:mt-27">welcome</p>
+        </div>
+    </div>
+    <div class="md:flex md:px-10">
+        <div>
+            <img class="px-7 py-5 rounded-4xl m-auto my-5 w-full md:w-800" src="us1.png" alt="Close"/>
+        </div>
+        <div>
+            <p class=" my-5 justify-center text-center text-4xl font-extrabold text-gray-800 bg-white underline md:text-left md:pl-10 md:mt-20">Mission</p>
+            <p class="text-xl text-justify px-8 py-5 font-bold">At SS Enterprises, our mission is to revolutionize the telemarketing industry by fostering meaningful connections between businesses and their customers. We are committed to delivering exceptional service, driven by innovation, integrity, and a deep understanding of our client’s goals. Through strategic collaboration and unwavering dedication, we aim to create value, enhance customer engagement, and drive measurable growth for our partners.</p>
+        </div>
+    </div>
+    <div class="md:flex md:px-10">
+        <div class="my-5 md:hidden">
+            <img class="px-7 py-5 rounded-4xl m-auto my-5 w-full md:w-640" src="Vision-scrabble-tiles-pexels-photo-462353.jpeg" alt="">
+        </div>
+        <div>
+            <p class=" my-5 justify-center text-center text-4xl font-extrabold text-gray-800 bg-white underline md:text-left md:pl-10 md:mt-40">Vision</p>
+            <p class="text-xl text-justify px-8 py-5 font-bold">Our vision is to be the most trusted and results-driven telemarketing partner in India, redefining industry standards through excellence, technology, and customer-entric solutions. WE aspire to empower bussinesses with transformative strategies that unlock new opportunities, ensuring sustainable success and a future filled with boundless possibilities.</p>
+        </div>
+        <div class="my-5 hidden md:block">
+            <img class="px-7 py-5 rounded-4xl m-auto my-5 w-full md:w-640" src="Vision-scrabble-tiles-pexels-photo-462353.jpeg" alt="">
+        </div>
+    </div>
+    <div><img class="ml-20 w-65 md:justify-self-center md:w-100" src="approach.png" alt=""></div>
+    <div class="px-2">
+        <div class="md:flex md:px-20">
+            <div class="justify-items-center my-10 mx-5 shadow-[8px_8px_12px_#FFae00] rounded-3xl p-10 md:w-250">
+                <div class="shadow-[4px_4px_8px_#000000] rounded-3xl w-80 p-5"><h2 class="text-[17px] font-bold"><li>A Partnership-Centric Approach</li></h2></div>
+                <p class="text-justify pt-10">
+                    We believe in building long-term relationships with our clients. Our success is directly tied to yours, and we work collaboratively to drive mutual growth and prosperity.
+                </p>
+            </div>
+            <div class="justify-items-center my-10 mx-5 shadow-[8px_8px_12px_#FFae00] rounded-3xl p-10 md:w-250">
+                <div class="shadow-[4px_4px_8px_#000000] rounded-3xl w-80 p-5"><h2 class="text-[17px] font-bold"><li>CustomerCentric Telemarketing</li></h2></div>
+                <p class="text-justify pt-10">
+                    We do more than just generate leads—we create meaningful customer connections that enhance brand loyalty, improve conversions, and drive revenue.
+                </p>
+            </div>    
+        </div>
+        <div class="md:flex md:px-20">
+            <div class="justify-items-center my-10 mx-5 shadow-[8px_8px_12px_#FFae00] rounded-3xl p-10 md:my-2 md:w-250">
+                <div class="shadow-[4px_4px_8px_#000000] rounded-3xl w-80 p-5"><h2 class="text-[13px] font-extrabold"><li>Proven Results & Data-Driven Strategies</li></h2></div>
+                <p class="text-justify pt-10">
+                    Our approach is rooted in market insights, advanced analytics, and industry best practices to deliver measurable results that align with your business objectives.
+                </p>
+            </div>
+            <div class="justify-items-center my-10 mx-5 shadow-[8px_8px_12px_#FFae00] rounded-3xl p-10 md:my-2 md:w-250">
+                <div class="shadow-[4px_4px_8px_#000000] rounded-3xl w-80 p-5"><h2 class="text-[14px] font-bold"><li>Tailored Solutions for Every Business</li></h2></div>
+                <p class="text-justify pt-10">
+                    We understand that every business is unique. Our customized solutions are designed to align with your goals, industry, and target audience, ensuring maximum impact.
+                </p>
+            </div>
+        </div>
+        <div class="justify-items-center my-10 mx-5 shadow-[8px_8px_12px_#FFae00] rounded-3xl p-10 md:my-6 md:mx-25">
+            <div class="shadow-[4px_4px_8px_#000000] rounded-3xl w-80 p-5"><h2 class="text-[14px] font-bold"><li>AExperienced Professionals & Cutting-Edge Technology</li></h2></div>
+            <p class="text-justify pt-10">
+                With a team of highly skilled experts and the latest technology, we ensure your campaigns are efficient, effective, and results-driven.
+            </p>
+        </div>
+        <div class=" my-5 justify-center text-center text-5xl text-orange-300 bg-white font-bold underline md:my-10">Key Features</div>
+        <div class="justify-center text-center text-xl font-bold bg-white text-gray-600 md:hidden">
+            Tailored Telemarketing Solutions
+        </div>
+        <div class="md:flex md:px-30">
+            <div>
+                <img class="p-5 md:rounded-4xl md:h-70 md:w-85" src="QLMBusinessSolutions-callcentre-8m3hh4IiTCGCP_AXCrQwuA-768x768.png" alt="">
+            </div>
+            <div class="md:pt-5 md:px-20">
+                <p class="justify-center text-center text-xl font-bold bg-white text-gray-600 hidden md:block md:text-left md:text-6xl">
+                    Tailored Telemarketing Solutions
+                </p>
+                <p  class="bg-white text-[15px] text-justify font-bold md:pt-10">
+                    Custom campaigns designed to align with your industry, target audience, and business objectives.
+                </p>
+                <hr  class="bg-gray-600 border-0 h-[4px] mt-5 mb-10">
+            </div>
+        </div>
+        <div class="justify-center text-center text-xl font-bold bg-white text-gray-600 md:hidden">
+            Data-Driven & Results-Oriented
+        </div>
+        <div class="md:flex md:px-30">
+            <div>
+                <img class="p-5 md:rounded-4xl md:h-70 md:w-85" src="pexels-fauxels-3183197.jpg" alt="">
+            </div>
+            <div class="md:pt-5 md:px-20">
+                <p class="justify-center text-center text-xl font-bold bg-white text-gray-600 hidden md:block md:text-left md:text-6xl">
+                    Data-Driven & Results-Oriented
+                </p>
+                <p  class="bg-white text-[15px] text-justify font-bold md:pt-10">
+                    Our approach is backed by analytics and market insights, ensuring high conversion rates and strong customer retension.
+                </p>
+                <hr  class="bg-gray-600 border-0 h-[4px] mt-5 mb-10">
+            </div>
+        </div>
+        <div class="justify-center text-center text-xl font-bold bg-white text-gray-600 md:hidden">
+        Expert Team & Advanced Technology
+        </div>
+        <div class="md:flex md:px-30">
+            <div>
+                <img class="p-5 md:rounded-4xl md:h-70 md:w-100" src="pexels-goumbik-669612.jpg" alt="">
+            </div>
+            <div class="md:pt-5 md:px-20">
+                <p class="justify-center text-center text-xl font-bold bg-white text-gray-600 hidden md:block md:text-left md:text-6xl">
+                    Expert Team & Advanced Technology
+                </p>
+                <p  class="bg-white text-[15px] text-justify font-bold md:pt-10">
+                    A skilled workforce combined with the latest tools and AI-driven strategies to optimize performance and efficiency.
+                </p>
+                <hr  class="bg-gray-600 border-0 h-[4px] mt-5 mb-10">
+            </div>
+        </div>
+        
+        <div class="justify-center text-center text-xl font-bold bg-white text-gray-600 md:hidden">
+        High ROI & Bussiness Growth
+        </div>
+        <div class="md:flex md:px-30">
+            <div>
+                <img class="p-5 md:rounded-4xl md:h-70 md:w-110" src="pexels-tomfisk-2435296.jpg" alt="">
+            </div>
+            <div class="md:pt-5 md:px-20">
+                <p class="justify-center text-center text-xl font-bold bg-white text-gray-600 hidden md:block md:text-left md:text-6xl">
+                    High ROI & Bussiness Growth
+                </p>
+                <p  class="bg-white text-[15px] text-justify font-bold md:pt-10">
+                    our strategic approach ensures that your investment yields tangible results, driving increased sales, improved customer relationships, and enchanced brand loyalty.
+                </p>
+                <hr  class="bg-gray-600 border-0 h-[4px] mt-5 mb-10">
+            </div>
+        </div>
+        
+        <div class="justify-center text-center text-xl font-bold bg-white text-gray-600 md:hidden">
+            Comprehensive Service Offerings
+        </div>
+        <div class="md:flex md:px-30">
+            <div>
+                <img class="p-5 md:rounded-4xl md:h-70 md:w-95" src="pexels-tima-miroshnichenko-5453811.jpg" alt="">
+            </div>
+            <div class="md:pt-5 md:px-20">
+                <p class="justify-center text-center text-xl font-bold bg-white text-gray-600 hidden md:block md:text-left md:text-6xl">
+                    Comprehensive Service Offerings
+                </p>
+                <p  class="bg-white text-[15px] text-justify font-bold md:pt-10">
+                    From lead generation to customer engagement and retention, we provide end-to-end telemarketing solutions tailored to your business needs.
+                </p>
+                <hr  class="bg-gray-600 border-0 h-[4px] mt-5 mb-10">
+            </div>
+        </div>
+        <div><img class=" ml-20 h-20 md:justify-self-center md:w-100 md:h-30" src="branch.png" alt=""></div>
+        <div>
+            <img class="p-6 md:w-400 md:h-400" src="pexels-lara-jameson-8828354.png" alt="">
+        </div>    
+    </div>
+    <div>
+        <div class="bg-zinc-800 grid grid-cols-1 md:grid-cols-3">
+            <div class="md:ml-25">
+                <p class="text-3xl tracking-widest text-justify pl-15 pt-20 pb-5 text-white italic font-bold underline decoration-orange-400 decoration-2">About Us</p>
+                <p class="text-white px-15 text-[16px]">As a leading provider of Business services in India, SS ENTERPRISES garners a highly responsive structure to resonate with its client’s individual needs. Owing to our paradigm leadership...</p>
+            </div>
+            <div class="md:ml-15">
+                <p class="text-3xl tracking-widest text-justify pl-15 pt-20 pb-5 text-white italic font-bold underline decoration-orange-400 decoration-2">Site Links</p>
+                <ul class="pl-15 list-disc list-inside">
+                    <li class="pt-1 text-white text-xl"><a href="index.html">Home</a></li>
+                    <li class="pt-1 text-white text-xl"><a href="about.html">About</a></li>
+                    <li class="pt-1 text-white text-xl"><a href="#">Careers</a></li>
+                    <li class="pt-1 text-white text-xl"><a href="#">Blog</a></li>
+                    <li class="pt-1 text-white text-xl"><a href="#">Industry</a></li>
+                    <li class="pt-1 text-white text-xl"><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="pb-12">
+                <p class="text-3xl tracking-widest text-justify pl-15 pt-20 pb-5 text-white italic font-bold underline decoration-orange-400 decoration-2">Contact Us</p>
+                <p class="text-white px-15 text-[20px]">Tel: +91 70426-70435</p>
+                <p class="text-white px-15 text-[20px]">Email: Connect@Wesse.in</p>
+                <br>
+                <img class="justify-self-center w-80 md:w-40 md:justify-self-auto md:ml-15" src="https://i.ibb.co/BVRCWczd/contact-qr.png" alt="Contact QR Code"/>
+            </div>
+        </div>
+    </div>
+    <footer class="fixed bottom-0 bg-black h-8 w-full">
+        <p class="text-orange-400 text-center text-[12px] mt-2 md:tracking-widest md:text-[15px]">&copy; SS Enterprises 2025. All rights reserved.</p>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            let lastScrollTop = 0;
+            const navbar = document.getElementById('navbar');
+            const s = document.getElementById('s');
+            
+            navbar.classList.add('bg-white');
+
+            window.addEventListener('scroll', function() {
+                const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+                if (scrollTop > lastScrollTop) {
+                    if (!navbar.classList.contains('bg-orange-400')) {
+                        navbar.classList.remove('bg-white');
+                        navbar.classList.add('bg-orange-300');
+                        s.classList.add('text-white');
+                    }
+                } else {
+                    if (!navbar.classList.contains('bg-white')) {
+                        navbar.classList.remove('bg-orange-400');
+                        navbar.classList.add('bg-white');
+                    }
+                }
+                lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+            }, false);
+        });
+
+        const logo = document.getElementById("logo");
+        const threebar = document.getElementById("threebar");
+        const links = document.getElementById("links");
+        const back = document.getElementById("back");
+
+        threebar.addEventListener("click", function() {
+            logo.classList.add("hidden");
+            threebar.classList.add("hidden");
+            links.classList.remove("hidden");
+            setTimeout(() => {
+                links.classList.remove("-translate-y-full");
+            }, 150);
+        });
+
+        back.addEventListener("click", function() {
+            links.classList.add("-translate-y-full");
+            setTimeout(() => {
+                links.classList.add("hidden");
+                logo.classList.remove("hidden");
+                threebar.classList.remove("hidden");
+            }, 300);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+    <style>
+    #about-content {
+        display: none;
+        background-color: #4a5565;
+        color: white;
+        padding: 10px;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        z-index: 5;
+    }
+    #about:hover + #about-content {
+        display: block;
+    }
+    </style>
+</head>
+<body class="m-0">
+    <nav id="navbar" class="flex justify-between items-center fixed top-0 w-full h-25 pb-1.5 z-10 bg-white transition-colors duration-1000 ease-in-out">
+        <div class="flex ml-10 self-center mt-5 xl:ml-25 md:mt-5" id="logo">
+            <img src="logo.png" alt="" class="h-22">
+        </div>
+        <div>
+            <img class="w-[80px] mt-9 pr-5 md:hidden" src="https://i.ibb.co/gb7GyZhb/Screenshot-2025-02-09-160007-removebg-preview.png" id="threebar" alt="Menu"/>
+        </div>
+        <div class="hidden flex flex-col transition-all top-0 w-full ml-12 mr-12 items-left bg-orange-300 font-bold rounded-b-3xl duration-800 ease-out shadow-lg" id="links">
+            <img class="mt-70 ml-20 w-10 float-right mb-5 cursor-pointer" src="https://i.ibb.co/7tDzNZGt/cross.png" id="back" alt="Close"/>
+            <a href="#" class="text-2xl text-zinc-700 pt-5 pl-20 pr-15 ">About</a>
+            <a href="#" class="text-2xl text-zinc-700 pt-5 pl-20 pr-15">Industry</a>
+            <a href="#" class="text-2xl text-zinc-700 pt-5 pl-20 pr-15">Services</a>
+            <a href="#" class="text-2xl text-zinc-700 pt-5 pl-20 pr-15 pb-10">Contact Us</a>
+        </div>
+        <div class="hidden mt-1 md:flex text-3xl">
+            <a href="#" class="decoration-0 text-black content-center mr-5 p-3 hover:p-6 hover:text-orange-400 hover:bg-gray-600 md:mt-4" id="about">About</a>
+            <div id="about-content" class="hidden">
+                <p class="text-orange-400 mt-7 ml-20">About Us</p>
+                <div class="flex">
+                    <div class="w-230">
+                        <p class="font-bold text-3xl ml-20 mt-5">Why Choose SS Enterprises?</p>
+                        <p class="font-light mx-10 ml-20 text-xl mt-5">
+                            At SS Enterprises, we go beyond conventional telemarketing to become a strategic extension of your 
+                            business. Our commitment to excellence, innovation, and client success makes us the preferred choice for businesses seeking impactful 
+                            customer engagement and sustainable growth.
+                        </p>
+                        <p class="font-light mx-10 text-xl mt-5 ml-20">
+                            Experience the difference of a telemarketing partner that is invested in your success. Let’s work together to unlock new opportunities and 
+                            drive sustainable growth.
+                        </p>
+                    </div>
+                    <div>
+                        <ul class="text-xl list-disc ml-30 mt-10">
+                            <li>MISSION & VISION</li>
+                            <li>WHY SS ENTERPRISES</li>
+                            <li>PARTNERSHIP</li>
+                            <li>KEY FEATURES</li>
+                            <li>BRANCHES</li>
+                            <li>WHEN COMPANY STARTED</li>
+                        </ul>
+                        <p class="text-xl ml-50 mt-20">
+                            <a href="#">Click me! </a><label class="text-orange-400">to know more.</label>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="decoration-0 text-black content-center mr-5 p-3 hover:p-6 hover:text-orange-400 hover:bg-gray-600 md:mt-4" id="about">Industry</a>
+            <div id="about-content" class="hidden">
+                <p class="text-orange-400 mt-7 ml-20">Industry</p>
+                <div class="flex">
+                    <div class="w-230">
+                        <p class="font-bold text-3xl ml-20 mt-5">SS Enterprises: Pioneering Telemarketing Solutions Across Industries</p>
+                        <p class="font-light mx-10 ml-20 text-xl mt-5">
+                            At SS Enterprises, we believe that the foundation of lasting success is built on robust partnerships. As a prominent telemarketing 
+                            service provider in India, we endeavor to go beyond the conventional boundaries of service delivery, positioning ourselves as your 
+                            dedicated partner in navigating the pathways to mutual growth and prosperity.
+                        </p>
+                    </div>
+                    <div>
+                        <ul class="text-xl list-disc ml-30 mt-10">
+                            <li>INDUSTRY</li>
+                            <li>E-COMMERCE</li>
+                            <li>INSURANCE</li>
+                            <li>IT / ITES</li>
+                            <li>TELECOMMUNICATIONS</li>
+                            <li>TRAVEL AND HOSPITALITY</li>
+                        </ul>
+                        <p class="text-xl ml-50 mt-20">
+                            <a href="#">Click me! </a><label class="text-orange-400">to know more.</label>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="decoration-0 text-black content-center p-3 hover:p-6 hover:text-orange-400 hover:bg-gray-600 md:mt-4" id="about">Services</a>
+            <div id="about-content" class="hidden">
+                <p class="text-orange-400 mt-7 ml-20">Industry</p>
+                <div class="flex">
+                    <div class="w-230">
+                        <p class="font-bold text-3xl ml-20 mt-5">SS Enterprises: Pioneering Telemarketing Solutions Across Industries</p>
+                        <p class="font-light mx-10 ml-20 text-xl mt-5">
+                            At SS Enterprises, we believe that the foundation of lasting success is built on robust partnerships. As a prominent telemarketing 
+                            service provider in India, we endeavor to go beyond the conventional boundaries of service delivery, positioning ourselves as your 
+                            dedicated partner in navigating the pathways to mutual growth and prosperity.
+                        </p>
+                    </div>
+                    <div>
+                        <ul class="text-xl list-disc ml-30 mt-10">
+                            <li>INDUSTRY</li>
+                            <li>E-COMMERCE</li>
+                            <li>INSURANCE</li>
+                            <li>IT / ITES</li>
+                            <li>TELECOMMUNICATIONS</li>
+                            <li>TRAVEL AND HOSPITALITY</li>
+                        </ul>
+                        <p class="text-xl ml-50 mt-20">
+                            <a href="#">Click me! </a><label class="text-orange-400">to know more.</label>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <a href="#"><img class="w-42 xl:mr-15  hover:p-1.5 hover:text-orange-400" src="contactus.png" alt="Logo"/></a>
+        </div> 
+    </nav>
+    <br><br><br><br>
+    <!-- Write your code here -->
+
+
+    
+
+    <div>
+        <div class="bg-zinc-800 grid grid-cols-1 md:grid-cols-3">
+            <div class="md:ml-25">
+                <p class="text-3xl tracking-widest text-justify pl-15 pt-20 pb-5 text-white italic font-bold underline decoration-orange-400 decoration-2">About Us</p>
+                <p class="text-white px-15 text-[16px]">As a leading provider of Business services in India, SS ENTERPRISES garners a highly responsive structure to resonate with its client’s individual needs. Owing to our paradigm leadership...</p>
+            </div>
+            <div class="md:ml-15">
+                <p class="text-3xl tracking-widest text-justify pl-15 pt-20 pb-5 text-white italic font-bold underline decoration-orange-400 decoration-2">Site Links</p>
+                <ul class="pl-15 list-disc list-inside">
+                    <li class="pt-1 text-white text-xl"><a href="#">Home</a></li>
+                    <li class="pt-1 text-white text-xl"><a href="#">About</a></li>
+                    <li class="pt-1 text-white text-xl"><a href="#">Careers</a></li>
+                    <li class="pt-1 text-white text-xl"><a href="#">Blog</a></li>
+                    <li class="pt-1 text-white text-xl"><a href="#">Industry</a></li>
+                    <li class="pt-1 text-white text-xl"><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="pb-12">
+                <p class="text-3xl tracking-widest text-justify pl-15 pt-20 pb-5 text-white italic font-bold underline decoration-orange-400 decoration-2">Contact Us</p>
+                <p class="text-white px-15 text-[20px]">Tel: +91 70426-70435</p>
+                <p class="text-white px-15 text-[20px]">Email: Connect@Wesse.in</p>
+                <br>
+                <img class="justify-self-center w-80 md:w-40 md:justify-self-auto md:ml-15" src="https://i.ibb.co/BVRCWczd/contact-qr.png" alt="Contact QR Code"/>
+            </div>
+        </div>
+    </div>
+    <footer class="fixed bottom-0 bg-black h-8 w-full">
+        <p class="text-orange-400 text-center text-[12px] mt-2 md:tracking-widest md:text-[15px]">&copy; SS Enterprises 2025. All rights reserved.</p>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            let lastScrollTop = 0;
+            const navbar = document.getElementById('navbar');
+            const s = document.getElementById('s');
+            
+            navbar.classList.add('bg-white');
+
+            window.addEventListener('scroll', function() {
+                const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+                if (scrollTop > lastScrollTop) {
+                    if (!navbar.classList.contains('bg-orange-400')) {
+                        navbar.classList.remove('bg-white');
+                        navbar.classList.add('bg-orange-300');
+                        s.classList.add('text-white');
+                    }
+                } else {
+                    if (!navbar.classList.contains('bg-white')) {
+                        navbar.classList.remove('bg-orange-400');
+                        navbar.classList.add('bg-white');
+                    }
+                }
+                lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+            }, false);
+        });
+
+        const logo = document.getElementById("logo");
+        const threebar = document.getElementById("threebar");
+        const links = document.getElementById("links");
+        const back = document.getElementById("back");
+
+        threebar.addEventListener("click", function() {
+            logo.classList.add("hidden");
+            threebar.classList.add("hidden");
+            links.classList.remove("hidden");
+            setTimeout(() => {
+                links.classList.remove("-translate-y-full");
+            }, 150);
+        });
+
+        back.addEventListener("click", function() {
+            links.classList.add("-translate-y-full");
+            setTimeout(() => {
+                links.classList.add("hidden");
+                logo.classList.remove("hidden");
+                threebar.classList.remove("hidden");
+            }, 300);
+        });
+    </script>
+</body>
+</html>
